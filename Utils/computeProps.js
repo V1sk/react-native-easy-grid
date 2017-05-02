@@ -1,5 +1,5 @@
 var React = require('react');
-import ReactNativePropRegistry from 'ReactNativePropRegistry';
+var ReactNativePropRegistry = require('ReactNativePropRegistry');
 var _ = require('lodash');
 
 module.exports = function(incomingProps, defaultProps) {
